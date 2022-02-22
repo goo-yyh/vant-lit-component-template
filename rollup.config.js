@@ -10,9 +10,9 @@ import resolve from '@rollup/plugin-node-resolve';
 import replace from '@rollup/plugin-replace';
 
 export default {
-  input: 'my-element.js',
+  input: 'goo-element.js',
   output: {
-    file: 'my-element.bundled.js',
+    file: 'goo-element@1.0.0.js',
     format: 'esm',
   },
   onwarn(warning) {
